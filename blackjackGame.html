@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="blackjackGame.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Lucky Strike Casino</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="roulette.html">Roulette</a></li>
+                <li><a href="blackjack.html">Blackjack</a></li>
+                <li><a href="slots.html">Slots</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="game-container">
+        <h1>Blackjack Game</h1>
+        
+        <div class="status">
+            <p id="status-text">Welcome to Blackjack!</p>
+        </div>
+
+        <div class="hand-container">
+            <div class="hand-section">
+                <h2>Dealer's Hand</h2>
+                <div id="dealer-hand" class="hand"></div>
+            </div>
+
+            <div class="hand-section">
+                <h2>Your Hand</h2>
+                <div id="player-hand" class="hand"></div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="hit">Hit</button>
+            <button id="stand">Stand</button>
+            <button id="new-game">New Game</button>
+        </div>
+    </div>
+    <script src="blackjackGame.js"></script>
+</body>
+</html>
