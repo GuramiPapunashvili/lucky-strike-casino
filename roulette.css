@@ -75,11 +75,13 @@ footer {
 }
 
 .roulette-wheel:nth-child(odd){
-    background-color: red;
+    color: red;
+    font-size: xx-large;
 } 
 
 .roulette-wheel:nth-child(even){
-    background-color: black;
+    color: black;
+    font-size: xx-large;
 } 
 
 
