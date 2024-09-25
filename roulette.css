@@ -73,3 +73,14 @@ footer {
 #spinButton:hover {
     background-color: #218838;
 }
+
+.roulette-wheel:nth-child(odd){
+    background-color: red;
+} 
+
+.roulette-wheel:nth-child(even){
+    background-color: black;
+} 
+
+
+
