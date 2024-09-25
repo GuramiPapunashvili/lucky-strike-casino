@@ -11,8 +11,6 @@ function chooseNumber(number) {
             num.style.backgroundColor = ''; 
         }
     });
-
-    alert(`You selected number: ${number}`);
 }
 
 function spinRoulette() {
